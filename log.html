@@ -1,0 +1,78 @@
+<!-- <html>
+  <head>
+    <script>
+      function abc() {
+        console.log("i am checking ");
+      }
+      function mnc() {
+        console.log("join");
+      }
+      function xyz() {
+        console.log("i am checkin out of the button");
+      }
+      function a() {
+        console.log("moves hover execution");
+      }
+      function p() {
+        console.log("check");
+      }
+    </script>
+  </head>
+  <body>
+    <label user="">name:</label>
+    <input
+      type="text"
+      placeholder="Enetr name"
+      onchange="abc()"
+      onblur="mnc()"
+      value=""
+    />
+    <button onmouseover="a()" onmouseout="p()">submit</button>
+  </body>
+  <script src="event.js"></script>
+</html>
+
+lexical scope
+ global scope
+ local scope
+ nested scope
+ black scope -->
+<!DOCTYPE html>
+<html lang="en">
+  <title>speeding system</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=  , initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function speeding() {
+        let speed = 0;
+        return {
+          accelerate: function () {
+            speed += 10;
+            return speed;
+          },
+          decelerate: function () {
+            speed -= 10;
+            return speed;
+          },
+        };
+      }
+      var speeding = speeding();
+
+      function decelerate() {
+        let speed = speeding.decelerate();
+        let statement = `current speed:${speed}`;
+        document.getElementById("speed").innerHTML = statement;
+      }
+      function accelerate() {
+        let speed = speeding.accelerate();
+        let statement = `current speed:${speed}`;
+        document.getElementById("speed").innerHTML = statement;
+      }
+    </script>
+  </head>
+  <body>
+    
+  </body>
+</html>

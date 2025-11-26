@@ -20,10 +20,10 @@
 //console.log(text.split("").join(""));
 
 
-let array=[1,2,3,4,5];
-let data=new Array();
-console.log(array);
-console.log(data);
-array.push(6);
-console.log(array);
-array.pop();
+// let array=[1,2,3,4,5];
+// let data=new Array();
+// console.log(array);
+// console.log(data);
+// array.push(6);
+// console.log(array);
+// array.pop();

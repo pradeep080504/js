@@ -1,0 +1,67 @@
+.a {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border: 2px solid;
+}
+.grid {
+  display: flex;
+}
+.b {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 2px solid;
+  top: 13px;
+  right: 1103px;
+}
+.c {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border: 2px solid;
+  top: 13px;
+  right: 1103px;
+}
+.d {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 2px solid;
+  top: 13px;
+  right: 1103px;
+}
+.row {
+  display: flex;
+}
+.f {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border: 2px solid;
+}
+
+.e {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 2px solid;
+  top: 13px;
+  right: 1103px;
+}
+.g {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 2px solid;
+  top: 13px;
+  right: 1103px;
+}
+.h {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border: 2px solid;
+  top: 13px;
+  right: 1103px;
+}
